@@ -20,11 +20,11 @@ dialog.addEventListener('click', (event) => {
 document.querySelector(".menu_button").addEventListener("click", () => {
 	if (!a_state) {
 		document.querySelector(".b_menu").style.display = "flex";
-		document.querySelector(".menu_button").style.maskImage = "url('/медиа/close-x-svgrepo-com.svg')";
+		document.querySelector(".menu_button").style.maskImage = "url('медиа/close-x-svgrepo-com.svg')";
 		a_state = true;
 	} else {
 		document.querySelector(".b_menu").style.display = "none";
-		document.querySelector(".menu_button").style.maskImage = "url('/медиа/menu-svgrepo-com.svg')";
+		document.querySelector(".menu_button").style.maskImage = "url('медиа/menu-svgrepo-com.svg')";
 		a_state = false;
 	}
 })
@@ -84,19 +84,19 @@ const d_map = {
 	'card1': {
 		'desc': 'Концерт в ДК Горняков.',
 		'desc2': 'Извесные исполнители!',
-		'img': '/медиа/Концерт с живым светом и толпой.png',
+		'img': 'медиа/Концерт с живым светом и толпой.png',
 		'price': 2000
 	},
 	'card2': {
 		'desc': 'Фудбольный матч на "Караганда арене".',
 		'desc2': 'Интересная игра и отличная атмосфера!',
-		'img': '/медиа/Футбольный мяч на зелёной траве.png',
+		'img': 'медиа/Футбольный мяч на зелёной траве.png',
 		'price': 3000
 	},
 	'card3': {
 		'desc': 'Проходит в городском парке.',
 		'desc2': 'Ламповая атмасфера!',
-		'img': '/медиа/Летний музыкальный фестиваль на закате.png',
+		'img': 'медиа/Летний музыкальный фестиваль на закате.png',
 		'price': 4000
 	},
 };

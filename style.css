@@ -8,9 +8,9 @@
 	width: 40px;
 	height: 40px;
 	grid-column: 1;
-	/*background-image: url('/медиа/close-x-svgrepo-com.svg');*/
+	/*background-image: url('медиа/close-x-svgrepo-com.svg');*/
 	background-color: #000;
-	mask-image: url('/медиа/menu-svgrepo-com.svg');
+	mask-image: url('медиа/menu-svgrepo-com.svg');
 	mask-size: contain;
 	mask-repeat: no-repeat;
 }
@@ -86,7 +86,7 @@ html {
 }
 
 .banner {
-	background-image: url('/медиа/Закат над Карагандой.png');
+	background-image: url('медиа/Закат над Карагандой.png');
 	background-size: cover;
 	background-position: center;
 
@@ -259,7 +259,7 @@ dialog::backdrop {
 .dialog div {
 	width: 40px;
 	height: 40px;
-	mask-image: url('/медиа/close-x-svgrepo-com.svg');
+	mask-image: url('медиа/close-x-svgrepo-com.svg');
 	background-color: #000;
 	mask-size: contain;
 	mask-repeat: no-repeat;
