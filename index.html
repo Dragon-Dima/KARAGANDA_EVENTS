@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>KARAGANDA EVENTS</title>
+	<script defer src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav class="menu">
+		<div class="menu_button"></div>
+		<div class="m_lable">KARAGANDA EVENTS</div>
+	</nav>
+	<div class="b_menu">
+		<div>
+			<a href="#block1" class="active">Главная</a>
+			<a href="#block2">Мероприятия</a>
+			<a href="#block3">Бронирование</a>
+		</div>
+	</div>
+	<div class="main">
+		<section id="block1">
+			<div class="banner">
+				<h1 class="banner_main">Мероприятия в Казахстане</h1>
+				<p class="banner_content">Самые интересные события города!</p>
+			</div>
+		</section>
+		<section id="block2">
+			<div class="category">
+				<input type="radio" name="category" id="c1" data-filter="all" checked>
+				<label for="c1">Все</label>
+				<input type="radio" name="category" id="c2" data-filter="concert">
+				<label for="c2">Концерт</label>
+				<input type="radio" name="category" id="c3" data-filter="sport">
+				<label for="c3">Спорт</label>
+			</div>
+			<div class="cards">
+				<div class="card" data-category="concert" id="card1">
+					<img src="/медиа/Концерт с живым светом и толпой.png" alt="">
+					<h3>Рок концерт</h3>
+					<p>25 апреля</p>
+					<button>Участвовать</button>
+				</div>
+				<div class="card" data-category="sport" id="card2">
+					<img src="/медиа/Футбольный мяч на траве стадиона.png" alt="">
+					<h3>Фудбольный матч</h3>
+					<p>28 апреля</p>
+					<button>Участвовать</button>
+				</div>
+				<div class="card"  id="card3">
+					<img src="/медиа/Летний музыкальный фестиваль на закате.png" alt="">
+					<h3>Летний фистиваль</h3>
+					<p>30 апреля</p>
+					<button>Участвовать</button>
+				</div>
+			</div>
+		</section>
+		<section id="block3">
+			<form class="booking">
+				<h2>Бронирование</h2>
+				<div class="events_div">
+					<label for="events">Мероприятие: </label>
+					<select class="events" id="events">
+						<option value="card1">Рок концерт</option>
+						<option value="card2">Фудбольный матч</option>
+						<option value="card3">Летний фистиваль</option>
+					</select>
+				</div>
+				<hr>
+				<p>Выбранные места:</p>
+				<div class="seats">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+					<input type="checkbox" class="seat">
+				</div>
+				<hr>
+				<p class="total_seats">Выбранные места: 0</p>
+				<p class="sum">Общая стоимость: 0</p>
+				<hr>
+				<div class="name_surname">
+					<p>Имя и фамилия:</p>
+					<input type="text" required>
+				</div>
+				<hr>
+				<button type="submit">Подтвердить</button>
+				<hr>
+				<div class="success">
+					<p>Бронирование выполнено спасибо!</p>
+				</div>
+			</form>
+		</section>
+	</div>
+
+	<dialog class="dialog">
+		<h4 class="c_id"><h4> <!-- hedden -->
+		<div></div>
+		<h2>A</h2>
+		<img src="/медиа/Футбольный мяч на зелёной траве.png" alt="">
+		<h3>A</h3>
+		<p>A</p>
+		<p>A</p>
+		<button>Забронировать</button>
+	</dialog>
+</body>
+</html>
