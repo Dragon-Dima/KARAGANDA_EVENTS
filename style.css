@@ -270,6 +270,7 @@ dialog::backdrop {
 
 .booking {
 	width: 85%;
+	max-width: 400px;
 	border: 1px solid #ccc;
 	border-radius: 10px;
 	margin-bottom: 100px;
